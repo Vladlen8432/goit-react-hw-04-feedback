@@ -1,0 +1,50 @@
+.headerFeedback {
+  font-size: 36px;
+}
+
+.buttonContainer {
+  display: flex;
+  gap: 30px;
+}
+
+.buttonItem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: auto;
+  border: none;
+  color: #fff;
+  font-weight: 700;
+  font-size: 26px;
+  text-transform: uppercase;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.goodButton {
+  background-color: #00ff00;
+}
+
+.goodButton:hover {
+  background-color: #00b300;
+}
+
+.neutralButton {
+  background-color: #808080;
+}
+
+.neutralButton:hover {
+  background-color: #595959;
+}
+
+.badButton {
+  background-color: #ff0000;
+}
+
+.badButton:hover {
+  background-color: #b30000;
+}
